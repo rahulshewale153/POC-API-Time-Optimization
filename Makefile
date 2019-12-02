@@ -13,3 +13,6 @@ run:
 	@echo "Running binary"
 	$(APPEXECUTION)
 
+docker-start: 
+	docker-compose up --build
+	
